@@ -5,7 +5,7 @@
   font-family: "Montserrat", sans-serif;
   height: auto;
 }
-.m{
+.m {
   background-image: url(img/bg-top.svg), url(img/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: right top, left bottom;
@@ -26,7 +26,7 @@
   gap: 30px;
   margin-bottom: 60px;
 }
-.main-heading{
+.main-heading {
   margin-top: 50px;
 }
 
@@ -97,14 +97,13 @@ input:checked + .slider:before {
 
 .card {
   height: 450px;
-  width: 450px;
+  width: 300px;
   text-align: center;
   border-radius: 6px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.2);
   background-color: white;
   margin-top: 40px;
 }
-
 
 .card ul {
   list-style: none;
@@ -125,7 +124,7 @@ input:checked + .slider:before {
   background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
   border-radius: 5px;
-  width: 22rem;
+  width: 12rem;
   font-size: 13px;
   font-weight: bold;
   margin-top: 20px;
@@ -147,7 +146,9 @@ h5 {
   font-size: 20px;
   padding-top: 20px;
 }
-
+.card-container{
+  margin-bottom: 20px;
+}
 .card:hover {
   background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
@@ -162,17 +163,22 @@ h5 {
 @media screen and (min-width: 1440px) {
   .card-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
+    margin-top: 40px;
   }
-  .card button
-  {
+  .card{
+    width: 400px;
+    height: 450px;
+  }
+  .card button{
+    width: 22rem;
+  }
+  .card button {
     background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     color: white;
     border: 1px solid white;
   }
-  
-
   .card:hover {
     transform: scale(1.2);
   }
