@@ -2,22 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
   font-family: "Montserrat", sans-serif;
 }
-
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/bg-top.svg), url(img/bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
+  margin-bottom: 2rem;
+}
 .heading {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  /* justify-content: space-between; */
+  margin-bottom: 60px;
 }
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 h2 {
   text-align: center;
   padding: 40px 40px;
