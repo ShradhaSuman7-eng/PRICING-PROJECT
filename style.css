@@ -148,7 +148,7 @@ h5 {
   font-size: 20px;
   padding-top: 20px;
 }
-.card-container{
+.card-container {
   margin-bottom: 20px;
 }
 .card:hover {
@@ -158,6 +158,12 @@ h5 {
 .card:hover button {
   background: white;
   color: rgb(105, 111, 221);
+}
+.card:hover p span {
+  color: white;
+}
+.card:hover p {
+  color: white;
 }
 .card:hover .one {
   color: white;
@@ -169,11 +175,11 @@ h5 {
     justify-content: center;
     margin-top: 100px;
   }
-  .card{
+  .card {
     width: 400px;
     height: 450px;
   }
-  .card button{
+  .card button {
     width: 22rem;
   }
   .card button {
