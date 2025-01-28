@@ -5,7 +5,7 @@
   font-family: "Montserrat", sans-serif;
   height: auto;
 }
-.m {
+.main-container {
   background-image: url(img/bg-top.svg), url(img/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: right top, left bottom;
@@ -32,9 +32,9 @@
 
 h1 {
   text-align: center;
-  padding-bottom: 50px;
   font-weight: bold;
-  color: rgb(49, 41, 98);
+  padding: 50px;
+  color: rgb(105, 111, 221);
 }
 
 .switch {
@@ -56,7 +56,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: rgb(105, 111, 221);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -96,13 +96,12 @@ input:checked + .slider:before {
 }
 
 .card {
-  height: 450px;
-  width: 300px;
   text-align: center;
   border-radius: 6px;
   box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.2);
   background-color: white;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  color: rgb(21, 26, 30);
 }
 
 .card ul {
@@ -111,8 +110,7 @@ input:checked + .slider:before {
 
 .card ul li {
   font-size: 16px;
-  color: #666;
-  margin: 10px 0;
+  margin: 10px;
   position: relative;
   padding: 17px;
   font-weight: bold;
@@ -124,33 +122,29 @@ input:checked + .slider:before {
   background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
   border-radius: 5px;
-  width: 12rem;
+  width: 14rem;
   font-size: 13px;
   font-weight: bold;
-  margin-top: 20px;
+  margin: 20px;
 }
 hr {
-  margin-right: 55px;
-  margin-left: 55px;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 p {
-  color: rgb(21, 26, 30);
   font-weight: bold;
   font-size: 40px;
 }
 p span {
-  color: rgb(21, 26, 30);
   font-size: 4rem;
   vertical-align: middle;
   font-weight: bold;
 }
 h5 {
   font-size: 20px;
-  padding-top: 20px;
+  padding: 20px;
 }
-.card-container {
-  margin-bottom: 20px;
-}
+
 .card:hover {
   background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
@@ -159,33 +153,26 @@ h5 {
   background: white;
   color: rgb(105, 111, 221);
 }
-.card:hover p span {
-  color: white;
-}
-.card:hover p {
-  color: white;
-}
-.card:hover .one {
-  color: white;
-}
 @media screen and (min-width: 1440px) {
   .card-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   .card {
     width: 400px;
     height: 450px;
+    margin-bottom: 30px;
   }
   .card button {
-    width: 22rem;
+    width: 21rem;
   }
   .card button {
     background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     color: white;
     border: 1px solid white;
+    margin-bottom: 40px;
   }
   .card:hover {
     transform: scale(1.2);
