@@ -11,7 +11,7 @@
   background-position: right top, left bottom;
   min-height: 100vh;
 }
-.main {
+.main{
   opacity: 0.75;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   padding: 50px;
-  color: rgb(105, 111, 221);
+  color: rgb(62, 65, 139);
 }
 
 .switch {
@@ -112,28 +112,30 @@ input:checked + .slider:before {
   font-size: 16px;
   margin: 10px;
   position: relative;
-  padding: 17px;
+  padding: 10px;
   font-weight: bold;
 }
 
 .learn-morebtn{
-  height: 2.5rem;
+  padding: 10px;
   border: none;
   background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
   border-radius: 5px;
-  width: 14rem;
   font-size: 13px;
   font-weight: bold;
   margin: 20px;
+  width: 14rem;
 }
 hr {
   margin-right: 32px;
   margin-left: 32px;
+  opacity: 0.75;
 }
 .sub-heading {
   font-weight: bold;
   font-size: 40px;
+  margin-bottom: 30px;
 }
 .sub-heading span {
   font-size: 4rem;
@@ -142,7 +144,7 @@ hr {
 }
 .heading2{
   font-size: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .card:hover {
@@ -160,17 +162,19 @@ hr {
     justify-content: center;
     margin-top: 150px;
   }
+  
   .card {
     width: 400px;
-    height: 450px;
+    /* height: 450px; */
     margin-bottom: 30px;
   }
   .learn-morebtn {
     background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     color: white;
     border: 1px solid white;
-    margin-bottom: 40px;
     width: 21rem;
+    /* padding-bottom: 20px; */
+    margin-bottom: 30px;
   }
   .card:hover {
     transform: scale(1.2);
